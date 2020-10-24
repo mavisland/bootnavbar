@@ -7,26 +7,16 @@
     border-top: 4px solid transparent;
     vertical-align: middle;
   }
-  .dropdown {
-    .dropdown-menu {
-      border-width: 0;
-      margin: 0 20px;
-      left: 100%;
-      top: 0%;
+  .dropdown .dropdown-menu {
+    border-width: 0;
+    margin: 0 20px;
+    left: 100%;
+    top: 0%;
 
-      &.left {
-        right: 100%;
-        left: auto;
-      }
+    &.left {
+      right: 100%;
+      left: auto;
     }
-  }
-  > li a:hover,
-  > li.show {
-    background: #007bff;
-    color: white;
-  }
-  > li.show > a {
-    color: white;
   }
   @media (min-width: 768px) {
     .dropdown .dropdown-menu {
